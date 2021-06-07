@@ -8,7 +8,7 @@ namespace TulsaJobSpot.Models
     public class CompanySiteType
     {
         public int Id { get; set; }
-        public string Description { get; set }
+        public string Description { get; set; }
         public ICollection<CompanySite> CompanySites { get; set; }
     }
 }
